@@ -50,7 +50,7 @@
                                             <span>120 Assist</span>
                                         </div>
                                         <div class="d-grid mt-4 ">
-                                            <a id="selected-btn1" href="#" class="btn btn-primary rounded-0">SELECT</a>
+                                            <button id="selected-btn1" class="btn btn-primary rounded-0">SELECT</button>
                                           </div>
                                     </div>
                                 </div>
@@ -68,7 +68,7 @@
                                             <span>120 Assist</span>
                                         </div>
                                         <div class="d-grid mt-4 ">
-                                            <a id="selected-btn2" href="#" class="btn btn-primary rounded-0">SELECT</a>
+                                            <button id="selected-btn2" class="btn btn-primary rounded-0">SELECT</button>
                                           </div>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@
                                         </div>
                                         
                                         <div class="d-grid mt-4 ">
-                                            <a id="selected-btn3" href="#" class="btn btn-primary rounded-0">SELECT</a>
+                                            <button id="selected-btn3" class="btn btn-primary rounded-0">SELECT</button>
                                           </div>
                                     </div>
                                 </div>
@@ -105,7 +105,7 @@
                                             <span>120 Assist</span>
                                         </div>
                                         <div class="d-grid mt-4 ">
-                                            <a id="selected-btn4" href="#" class="btn btn-primary rounded-0">SELECT</a>
+                                            <button id="selected-btn4" class="btn btn-primary rounded-0">SELECT</button>
                                           </div>
                                     </div>
                                 </div>
@@ -123,7 +123,7 @@
                                             <span>120 Assist</span>
                                         </div>
                                         <div class="d-grid mt-4">
-                                            <a id="selected-btn5" href="#" class="btn btn-primary rounded-0">SELECT</a>
+                                            <button id="selected-btn5" class="btn btn-primary rounded-0">SELECT</button>
                                           </div>
                                     </div>
                                 </div>
@@ -141,7 +141,7 @@
                                             <span>120 Assist</span>
                                         </div>
                                         <div class="d-grid mt-4 ">
-                                            <a id="selected-btn6" href="#" class="btn btn-primary rounded-0">SELECT</a>
+                                            <button id="selected-btn6" class="btn btn-primary rounded-0">SELECT</button>
                                           </div>
                                     </div>
                                 </div>
@@ -161,7 +161,7 @@
                                             <span>120 Assist</span>
                                         </div>
                                         <div class="d-grid mt-4 ">
-                                            <a id="selected-btn7" href="#" class="btn btn-primary rounded-0">SELECT</a>
+                                            <button id="selected-btn7" class="btn btn-primary rounded-0">SELECT</button>
                                           </div>
                                     </div>
                                 </div>
@@ -179,7 +179,7 @@
                                             <span>120 Assist</span>
                                         </div>
                                         <div class="d-grid mt-4 ">
-                                            <a id="selected-btn8" href="#" class="btn btn-primary rounded-0">SELECT</a>
+                                            <button id="selected-btn8" class="btn btn-primary rounded-0">SELECT</button>
                                           </div>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@
                                         </div>
 
                                         <div class="d-grid mt-4 ">
-                                            <a id="selected-btn9" href="#" class="btn btn-primary rounded-0">SELECT</a>
+                                            <button id="selected-btn9" class="btn btn-primary rounded-0">SELECT</button>
                                           </div>
                                     </div>
                                 </div>
@@ -216,7 +216,7 @@
                                             <span>120 Assist</span>
                                         </div>
                                         <div class="d-grid mt-4 ">
-                                            <a id="selected-btn10" href="#" class="btn btn-primary rounded-0">SELECT</a>
+                                            <button id="selected-btn10" class="btn btn-primary rounded-0">SELECT</button>
                                           </div>
                                     </div>
                                 </div>
@@ -234,7 +234,7 @@
                                             <span>120 Assist</span>
                                         </div>
                                         <div class="d-grid mt-4">
-                                            <a id="selected-btn11" href="#" class="btn btn-primary rounded-0">SELECT</a>
+                                            <button id="selected-btn11" class="btn btn-primary rounded-0">SELECT</button>
                                           </div>
                                     </div>
                                 </div>
@@ -252,7 +252,7 @@
                                             <span>120 Assist</span>
                                         </div>
                                         <div class="d-grid mt-4 ">
-                                            <a id="selected-btn12" href="#" class="btn btn-primary rounded-0">SELECT</a>
+                                            <button id="selected-btn12" class="btn btn-primary rounded-0">SELECT</button>
                                           </div>
                                     </div>
                                 </div>
@@ -263,35 +263,48 @@
                     <div class="col-lg-3">
                         <div class="selected-value py-4  mt-3 mb-5 bg-dark">
                             <div class=" bg-dark text-center text-light">
-                                <h3 class="value-title">Selected - V</h3>
-                                <ol id="selected-player">
+                                <h3 class="value-title mb-5">Selected - V</h3>
+                                <ol id="selected-player" class="text-start">
                                 </ol>
     
                             </div>
                         </div>
 
                         <div class=" py-4 bg-dark">
-                            <div class="text-light">
+                            <div class="text-light px-3">
                                 <h3 class=" budget-title mb-5 text-center line">Budget</h3>
-                                <div class="d-flex align-items-center"><h4 class="input-text  mb-20 mt-20">per player:</h4>
-                                    <input id="per-player-amount" type="text">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h4 class="input-text  mb-20 mt-20">per player:</h4>
+                                    <input id="per-player-amount" class="w-50 px-2" type="text">
                                 </div>
     
-                                    <div class="d-grid ">
-                                        <a id="calculate" href="#" class="btn btn-primary rounded-0 mt-4 mb-3">Calculate</a>
-                                      </div>
+                                <div class="d-grid ">
+                                    <button id="calculate" class="btn btn-primary rounded-0 mt-4 mb-3">Calculate</button>
+                                </div>
+                                
+                                <div class="d-flex align-items-center justify-content-between mb-4 ">
+                                    <h6>Player expense</h6>
+                                    <span id="player-expense">&#36;00</span>
+                                </div>
+                                
+                                <div class="d-flex align-items-center justify-content-between mb-20 mt-20">
+                                    <h4 class="input-text">Manager:</h4>
+                                    <input class="mb-3 w-50 px-2" type="text" name="" id="manager-amount">
+                                </div>
     
-                                 <h4>Player expense $<span id="player-expense">00</span></h4>
-                                 <div class="d-flex align-items-center mb-20 mt-20"><h4 class="input-text">Manager:</h4>
-                                    <input class="mb-3" type="text" name="" id="manager-amount"></div>
+                                 <div class="d-flex align-items-center justify-content-between">
+                                    <h4 class="input-text" >Coach:</h4>
+                                    <input type="text" id="coach-amount" class="w-50 px-2">
+                                </div>
     
-                                 <div class="d-flex align-items-center"><h4 class="input-text">Coach:</h4>
-                                    <input type="text" id="coach-amount"></div>
-    
-                                    <div class="d-grid mt-4 mb-2 ">
-                                        <a id="total-calculate" href="#" class="btn btn-primary rounded-0">Calculate Total</a>
-                                      </div>
-                                 <h4>Total $<span id="cost">00</span></h4>
+                                <div class="d-grid mt-4 mb-4 ">
+                                    <button id="total-calculate" class="btn btn-primary rounded-0">Calculate Total</button>
+                                </div>
+
+                                 <div class="d-flex align-items-center justify-content-between mb-4 ">
+                                    <h6>Total</h6>
+                                    <span id="cost">&#36;00</span>
+                                </div>
     
                             </div>
                         </div>
@@ -306,7 +319,7 @@
                     <!-- footer part start -->
                     <footer>
                         <div >
-                            <p class="text-light text-center py-5">Copyright @ 2022 All Rights Reserved.</p>
+                            <p class="text-light text-center py-5">Copyright @ 2022 | All Rights Reserved Assignment-5.</p>
                         </div>
                     </footer>
                     <!-- footer part end -->
