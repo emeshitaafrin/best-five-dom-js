@@ -212,3 +212,114 @@ document.getElementById('selected-btn8').addEventListener('click',function(){
 });
 // Button Eight End
 
+// Button Nine Start
+document.getElementById('selected-btn9').addEventListener('click',function(){
+    //length check
+    const selectedPlayerlength= document.querySelectorAll('#selected-player li');
+    if(selectedPlayerlength.length < 5){
+ 
+         // disabled btn
+         const btnDesabaled= document.getElementById('selected-btn9');
+         btnDesabaled.setAttribute('disabled',true);
+         btnDesabaled.style.backgroundColor='gray';
+         //player name 
+         const name = document.getElementById('selected-name9');
+         const elemet= name.innerText;
+    
+         //add 
+         const selectedPlayer= document.getElementById('selected-player');
+         const createElement= document.createElement('li');
+         createElement.innerText=elemet;
+ 
+         selectedPlayer.appendChild(createElement);
+ 
+    }else{
+    alert('Sorry!!You have crossed limit.');
+    }
+ });
+// Button Nine End
+ 
+// Button Ten Start
+ document.getElementById('selected-btn10').addEventListener('click',function(){
+    //length check
+    const selectedPlayerlength= document.querySelectorAll('#selected-player li');
+    if(selectedPlayerlength.length < 5){
+ 
+         // disabled btn
+         const btnDesabaled= document.getElementById('selected-btn10');
+         btnDesabaled.setAttribute('disabled',true);
+         btnDesabaled.style.backgroundColor='gray';
+ 
+         //player name 
+         const name = document.getElementById('selected-name10');
+         const elemet= name.innerText;
+    
+         //add 
+         const selectedPlayer= document.getElementById('selected-player');
+         const createElement= document.createElement('li');
+         createElement.innerText=elemet;
+ 
+     selectedPlayer.appendChild(createElement);
+ 
+    }else{
+    alert('Sorry!!You have crossed limit');
+    }
+ });
+// Button Ten End
+
+// Button Eleven Start
+ document.getElementById('selected-btn11').addEventListener('click',function(){
+    //length check
+    const selectedPlayerlength= document.querySelectorAll('#selected-player li');
+    if(selectedPlayerlength.length < 5){
+ 
+         // disabled btn
+         const btnDesabaled= document.getElementById('selected-btn11');
+         btnDesabaled.setAttribute('disabled',true);
+         btnDesabaled.style.backgroundColor='gray';
+         //player name 
+         const name = document.getElementById('selected-name11');
+         const elemet= name.innerText;
+    
+         //add hobe
+         const selectedPlayer= document.getElementById('selected-player');
+         const createElement= document.createElement('li');
+         createElement.innerText=elemet;
+ 
+    selectedPlayer.appendChild(createElement);
+ 
+    }else{
+    alert('Sorry!!You have crossed limit.');
+    }
+ });
+// Button Eleven End
+
+// Button Twelve Start
+ document.getElementById('selected-btn12').addEventListener('click',function(){
+ 
+     console.log('vlickd');
+    //length check
+    const selectedPlayerlength= document.querySelectorAll('#selected-player li');
+    if(selectedPlayerlength.length < 5){
+          // disabled btn
+         const btnDesabaled= document.getElementById('selected-btn12');
+         btnDesabaled.setAttribute('disabled',true);
+         btnDesabaled.style.backgroundColor='gray';
+         //player name 
+         const name = document.getElementById('selected-name12');
+         const elemet= name.innerText;
+    
+         //add 
+         const selectedPlayer= document.getElementById('selected-player');
+         const createElement= document.createElement('li');
+         createElement.innerText=elemet;
+ 
+         selectedPlayer.appendChild(createElement);
+ 
+    }else{
+    alert('Sorry!!You have crossed limit.');
+    }
+ });
+// Button Twelve End
+ 
+
