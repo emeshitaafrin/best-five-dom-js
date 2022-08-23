@@ -1,5 +1,7 @@
 
-/* ----- common css----- */
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope:wght@400;500;600;700;800&display=swap');
+/* ----- Global css----- */
 *{
     margin: 0;
     padding: 0;
@@ -8,60 +10,75 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #151515;
-   
-    
+    font-family: 'Manrope', sans-serif;
+    background-color: #151515; 
 }
-
-/* font-family: 'Berkshire Swash', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Manrope', sans-serif;
-font-family: 'Montserrat', sans-serif */
 
 /* ----- banner part css----- */
-
-#banner{
+#banner {
+    position: relative;
     background-color: rgb(0, 0, 0);
 }
- .banner-img{
-    width: 380px;
-} 
- .banner-img img{
-    max-width: 100%;
- }
-    
-
-.z-index{
-    z-index: 999;
+#banner::before {
+    content: '';
+    height: 180px;
+    width: 190px;
+    background-image: url(../images/football.png);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
-.text-color{
-    color: orangered;
-    font-size: 50px;
+#banner::after {
+    content: '';
+    height: 460px;
+    width: 410px;
+    background-image: url(../images/banner_img_01.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.banner-text h3{
-    font-size: 50px;
+.hero-area {
+    max-width: 735px;
+    margin: auto;
+    padding-top: 140px;
+    padding-bottom: 130px;
+    /* position: relative; */
 }
-
-.font-style{
-    font-family: 'Manrope', sans-serif;
-   font-size: 30px;
-   font-weight: 500;
+.hero-area::before {
+    content: '';
+    height: 200px;
+    width: 190px;
+    background-image: url(../images/banner_img_02.png);
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
-.banner-text p{
+.hero-title{
+    font-family: 'Berkshire Swash', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 94px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FF5E19;
+}
+.hero-desc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
 }
-.margin{
-    margin-left: 90px;
-    margin-bottom: 140px;
-}
-.football-place{
-    bottom:0;
-}
- 
-
 
 /* ----- main part css ----- */
 
@@ -70,7 +87,7 @@ font-family: 'Montserrat', sans-serif */
 .player {
     border: 1px solid #434343;
 }
-.player .player-info 
+.player .player-info
 .player .player-info h3.name {
     font-family: 'Manrope';
     font-style: normal;
@@ -81,17 +98,24 @@ font-family: 'Montserrat', sans-serif */
 }
 
 .selected-value {
-    min-height: 370px;
+    min-height: 350px;
 }
+h3 {
+    position: relative;
+}
+h3.value-title::before,
+h3.budget-title::before {
+    content: '';
+    height: 13px;
+    width: 144px;
+    background-image: url(../shape/title-line_01.png);
+    position: absolute;
 
+    bottom: -20px;
+    right: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .input-text{
     font-size: 13px;
 }
-
-
-/* ----- footer part css----- */
-.padding{
-    padding:60px;
-}
-   
-    

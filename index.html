@@ -6,43 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Five Dom</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
        <!-- banner part start -->
        <section id="banner">
-        <div class="banner-part d-flex align-items-center">
-             <div class="col-lg-3">
-                <div class="banner-img">
-                    <img class="position-relative z-index d-block" src="./assets/images/banner_img_01.png">
-                    <img class="position-absolute top-0 start-0 mt-5 d-block " src="./assets/images/shape-banner-bg-01.png">
-                </div>
-             </div>
-           
-            <div class="col-lg-6">
-                <div class="banner-text text-center text-light">
-                    <h6  class="text-light font-style">welcome to khela</h6>
-                    <h3 ><span class="text-color" >SPORTING </span>CLUB</h3>
-                    <p>The most popular of these sports worldwide is association football, more commonly known as just "football" or "soccer".</p>
-                </div>
-               
-            </div>
-            <div class="col-lg-2">
-                <div class="t-tweenty-match-img ml-0">
-                   <img class="margin" src="./assets/images/banner_img_02.png">
-                </div>
-
-                <div class="football">
-                    <img class="football-place" src="./assets/images/football.png">
+           <div class="container-fluid">
+                <div class="hero-area">
+                   <h1 class="hero-title">Select Your Best Five</h1>
+                   <p class="hero-desc">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                   </p>
                 </div>
 
             </div>
-        </div>
-    </section>
+     
+        </section>
     </header>
      <!-- banner part end -->
      ]
@@ -277,19 +261,18 @@
                     </div>
 
                     <div class="col-lg-3">
-                        <div class="selected-value py-5 mt-3 bg-dark">
-
-                            <div class="py-5  mt-3 mb-4 bg-dark text-center text-light">
-                                <h3>Selected - V</h3>
+                        <div class="selected-value py-4  mt-3 mb-5 bg-dark">
+                            <div class=" bg-dark text-center text-light">
+                                <h3 class="value-title">Selected - V</h3>
                                 <ol id="selected-player">
                                 </ol>
     
                             </div>
-                            </div>
+                        </div>
 
-                            <div class=" py-5 mt-3 bg-dark">
+                        <div class=" py-4 bg-dark">
                             <div class="text-light">
-                                <h1 class=" text-center">Budget</h1>
+                                <h3 class=" budget-title mb-5 text-center line">Budget</h3>
                                 <div class="d-flex align-items-center"><h4 class="input-text  mb-20 mt-20">per player:</h4>
                                     <input id="per-player-amount" type="text">
                                 </div>
@@ -311,7 +294,7 @@
                                  <h4>Total $<span id="cost">00</span></h4>
     
                             </div>
-                    </div>
+                        </div>
                     </div>
 
                     <!-- main part end -->
@@ -323,7 +306,7 @@
                     <!-- footer part start -->
                     <footer>
                         <div >
-                            <p class="text-light text-center padding">Copyright @ 2022 All Rights Reserved.</p>
+                            <p class="text-light text-center py-5">Copyright @ 2022 All Rights Reserved.</p>
                         </div>
                     </footer>
                     <!-- footer part end -->
